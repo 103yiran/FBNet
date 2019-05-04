@@ -48,7 +48,7 @@ The repository consists of 2 Neural Net Models:
 
 **(1)** FBNet Searched Architectures. All tools in the *architecture_functions* folder
 
-**(2)** Stochastic SuperNet to search for new architectures. All tools in the *architecture_functions* folder
+**(2)** Stochastic SuperNet to search for new architectures. All tools in the *supernet_functions* folder
 
 > They use different functions and architectures specification. Functions used by both Nets are in the folders: *general_functions* (utilities) and *fbnet_building_blocks* (modified code of facebookresearch team)
 
