@@ -32,7 +32,7 @@ You can recalculate latecy for your CPU, just change the config : *supernet_func
 
 Next, train it (takes 4 hours with 1 GPU):
 
-`python supernet_main_file.py --train_or_sample **train**`
+`python supernet_main_file.py --train_or_sample train`
 
 All logs will be printed and also saved to *supernet_functions/logs/logger*, tensorboard logs will be in *supernet_functions/logs/tb/*, best model will be saved in *supernet_functions/logs/best_model.pth*
 
