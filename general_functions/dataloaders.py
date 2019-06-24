@@ -36,7 +36,7 @@ def get_loaders(train_portion, batch_size, path_to_save_data, logger):
     valid_sampler = SubsetRandomSampler(valid_idx)
     
     val_loader = torch.utils.data.DataLoader(
-        train_data, batch_size=batch_size, sampler=train_sampler,
+        train_data, batch_size=batch_size, sampler=valid_sampler,
         pin_memory=True, num_workers=16)
     
     return train_loader, val_loader
